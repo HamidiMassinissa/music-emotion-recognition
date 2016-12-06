@@ -1,0 +1,110 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\sortlist[entry]{none/global/}
+  \entry{citeulike:630522}{article}{}
+    \name{author}{1}{}{%
+      {{hash=RJA}{%
+         family={Russell},
+         familyi={R\bibinitperiod},
+         given={J.\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \keyw{dimensional, emotion, model}
+    \strng{namehash}{RJA1}
+    \strng{fullhash}{RJA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{1161\bibrangedash 1178}
+    \field{title}{{A circumplex model of affect}}
+    \field{volume}{39}
+    \field{journaltitle}{Journal of Personality and Social Psychology}
+    \field{year}{1980}
+  \endentry
+
+  \entry{Bertin-Mahieux2011}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=BMT}{%
+         family={Bertin-Mahieux},
+         familyi={B\bibinitperiod-M\bibinitperiod},
+         given={Thierry},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=EDP}{%
+         family={Ellis},
+         familyi={E\bibinitperiod},
+         given={Daniel\bibnamedelima P.W.},
+         giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=WB}{%
+         family={Whitman},
+         familyi={W\bibinitperiod},
+         given={Brian},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={Lamere},
+         familyi={L\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BMT+1}
+    \strng{fullhash}{BMTEDPWBLP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{{Proceedings of the 12th International Conference on
+  Music Information Retrieval ({ISMIR} 2011)}}
+    \field{title}{The Million Song Dataset}
+    \field{year}{2011}
+  \endentry
+
+  \entry{schindler2012facilitating}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=SA}{%
+         family={Schindler},
+         familyi={S\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Mayer},
+         familyi={M\bibinitperiod},
+         given={Rudolf},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Rauber},
+         familyi={R\bibinitperiod},
+         given={Andreas},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SAMRRA1}
+    \strng{fullhash}{SAMRRA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{ISMIR}
+    \field{pages}{469\bibrangedash 474}
+    \field{title}{Facilitating Comprehensive Benchmarking Experiments on the
+  Million Song Dataset.}
+    \field{year}{2012}
+  \endentry
+\endsortlist
+\endinput

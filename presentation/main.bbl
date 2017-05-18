@@ -106,5 +106,59 @@
   Million Song Dataset.}
     \field{year}{2012}
   \endentry
+
+  \entry{laurier2011automatic}{thesis}{}
+    \true{moreauthor}
+    \name{author}{1}{}{%
+      {{hash=LCF}{%
+         family={Laurier},
+         familyi={L\bibinitperiod},
+         given={Cyril\bibnamedelima Fran{\c{c}}ois},
+         giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LCF+1}
+    \strng{fullhash}{LCF+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Automatic Classification of musical mood by content-based
+  analysis}
+    \list{institution}{1}{%
+      {Universitat Pompeu Fabra}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2011}
+  \endentry
+
+  \entry{saari2014semantic}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SP}{%
+         family={Saari},
+         familyi={S\bibinitperiod},
+         given={Pasi},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=ET}{%
+         family={Eerola},
+         familyi={E\bibinitperiod},
+         given={Tuomas},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{SPET1}
+    \strng{fullhash}{SPET1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{10}
+    \field{pages}{2548\bibrangedash 2560}
+    \field{title}{Semantic computing of moods based on tags in social media of
+  music}
+    \field{volume}{26}
+    \field{journaltitle}{IEEE Transactions on Knowledge and Data Engineering}
+    \field{year}{2014}
+  \endentry
 \endsortlist
 \endinput

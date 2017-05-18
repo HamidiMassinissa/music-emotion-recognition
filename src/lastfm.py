@@ -17,7 +17,6 @@
 
 import pylast
 import csv
-import io
 
 API_KEY = "f5bb0437db448307296ee1c3be1432ad"
 API_SECRET = "3edf86f9a84cb011c5a03dfcfdc70b98"
@@ -60,23 +59,28 @@ def fetch_toptracks_persistent():
 
     # get the list of moods
     # l = mood_list()
-    l = ["sad"]
+    l = ["happy"]
     filename = PATH+"lastfm/toptracks.csv"
-    with io.open(filename, mode='w', encoding='utf-8') as f:
+    with open(filename, mode='w') as f:
         csv_writer = csv.writer(f)
 
         # fetching actual data from lastfm
         print("fetching data from lastfm  ...")
         for mood in l:
-            print "processing mood tag" + mood + " ..."
+            print "processing mood tag " + mood + " ..."
 
             tag = network.get_tag(mood)
             topItems = tag.get_top_tracks(limit=1000)
 
             for topItem in topItems:
                 track = topItem[0]
-                csv_writer.writerow([mood, track.get_mbid(), track.get_artist(),
-                                    track.get_title()])
+                try:
+                    csv_writer.writerow([mood, track.get_mbid(),
+                                        track.get_artist(),
+                                        track.get_title().encode('utf-8')])
+
+                except csv.Error:
+                    print "error"
 
         f.close()
 
@@ -85,11 +89,12 @@ def fetch_similar_tracks_persistent():
     """
     """
 
+    """
     # first, create a LastFMNetwork object providing the lastfm api key
     network = pylast.LastFMNetwork(api_key=API_KEY, api_secret=API_SECRET,
                                    username=username,
                                    password_hash=password_hash)
-
+                                   """
 
 
 def fetch_toptags_persistent():
@@ -98,13 +103,12 @@ def fetch_toptags_persistent():
         tag and the similar tracks, get its top tags
     """
 
+    """
     # first, create a LastFMNetwork object providing the lastfm api key
     network = pylast.LastFMNetwork(api_key=API_KEY, api_secret=API_SECRET,
                                    username=username,
                                    password_hash=password_hash)
-
-
-
+                                   """
 
 
 def load_dataset(path):

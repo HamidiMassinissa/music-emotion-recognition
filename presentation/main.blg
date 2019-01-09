@@ -1,0 +1,64 @@
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+The style file: biblatex.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: main-blx.bib
+Database file #2: ../redaction/biblio.bib
+Biblatex version: 3.3
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 6 entries,
+            6256 wiz_defined-function locations,
+            1207 strings with 9434 characters,
+and the built_in function-call counts, 27054 in all, are:
+= -- 1832
+> -- 546
+< -- 126
++ -- 636
+- -- 206
+* -- 1868
+:= -- 2812
+add.period$ -- 0
+call.type$ -- 6
+change.case$ -- 65
+chr.to.int$ -- 30
+cite$ -- 10
+duplicate$ -- 2791
+empty$ -- 2567
+format.name$ -- 312
+if$ -- 5634
+int.to.chr$ -- 0
+int.to.str$ -- 12
+missing$ -- 0
+newline$ -- 160
+num.names$ -- 224
+pop$ -- 1746
+preamble$ -- 1
+purify$ -- 95
+quote$ -- 0
+skip$ -- 867
+stack$ -- 0
+substring$ -- 3038
+swap$ -- 658
+text.length$ -- 122
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 191
+warning$ -- 0
+while$ -- 343
+width$ -- 0
+write$ -- 155
